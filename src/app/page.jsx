@@ -96,7 +96,7 @@ export default function Home() {
             <HeroAgus />
             
             <div className="bg-neutral-900 flex flex-col gap-20">
-                  <h2 className="text-6xl md:text-[180px] md:leading-[186px] md:tracking-[-6px] lg:text-[250px] uppercase lg:leading-[286px] lg:tracking-[-12px] text-zinc-50 font-[1000]">
+                  <h2 className="text-6xl lg:text-[180px] lg:leading-[186px] lg:tracking-[-6px] xl:text-[250px] uppercase xl:leading-[286px] xl:tracking-[-12px] text-zinc-50 font-[1000] pl-4">
                   ¿Cómo funciona?
                   </h2>
 {/* 

@@ -22,6 +22,20 @@
       font-weight: 900;
       line-height: 4.5rem;
     }
+
+    @media (max-width: 768px) {
+      // Aquí puedes agregar las reglas CSS para la clase .card en pantallas de hasta 768px
+      // Por ejemplo:
+      flex-direction: column;
+      gap: 1em;
+
+      h2 {
+        // Aquí puedes agregar las reglas CSS para el h2 en pantallas de hasta 768px
+        // Por ejemplo:
+        font-size: 3rem;
+        line-height: 2.5rem;
+      }
+    }
     .body{
       display: flex;
       height: 100%;
