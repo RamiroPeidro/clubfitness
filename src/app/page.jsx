@@ -115,6 +115,84 @@ export default function Home() {
                     }
                 </main>
 
+
+         <section className="bg-neutral-900 h-screen w-full py-12 md:py-24 lg:py-32">
+          <div className=" px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl text-zinc-50 font-bold tracking-tighter sm:text-5xl">Algunos de nuestros productos</h2>
+                <p className="max-w-[900px] text-zinc-50 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Cada mes, tu caja de El Club del Fitness incluirá una variedad de productos de fitness premium para ayudarte a alcanzar tus metas.
+                </p>
+              </div>
+              <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+                <div className="flex flex-col items-center justify-center space-y-2">
+                  <img
+                    src="/placeholder.svg"
+                    width="120"
+                    height="120"
+                    alt="Protein Powder"
+                    className="rounded-full object-cover"
+                  />
+                  <p className="text-sm text-zinc-50 font-medium">Proteína en polvo</p>
+                </div>
+                <div className="flex flex-col items-center justify-center space-y-2">
+                  <img
+                    src="/placeholder.svg"
+                    width="120"
+                    height="120"
+                    alt="Pre-Workout"
+                    className="rounded-full object-cover"
+                  />
+                  <p className="text-sm  text-zinc-50 font-medium">Pre-Workouts</p>
+                </div>
+                <div className="flex flex-col items-center justify-center space-y-2">
+                  <img
+                    src="/placeholder.svg"
+                    width="120"
+                    height="120"
+                    alt="Apparel"
+                    className="rounded-full object-cover"
+                  />
+                  <p className="text-sm text-zinc-50 font-medium">Oversized Tees</p>
+                </div>
+                <div className="flex flex-col items-center justify-center space-y-2">
+                  <img
+                    src="/placeholder.svg"
+                    width="120"
+                    height="120"
+                    alt="Accessories"
+                    className="rounded-full object-cover"
+                  />
+                  <p className="text-sm text-zinc-50 font-medium">Accessorios</p>
+                </div>
+                <div className="flex flex-col items-center justify-center space-y-2">
+                  <img
+                    src="/placeholder.svg"
+                    width="120"
+                    height="120"
+                    alt="Supplements"
+                    className="rounded-full object-cover"
+                  />
+                  <p className="text-sm text-zinc-50 font-medium">Asesorías</p>
+                </div>
+
+                <div className="flex flex-col items-center justify-center space-y-2">
+                  <img
+                    src="/placeholder.svg"
+                    width="120"
+                    height="120"
+                    alt="Supplements"
+                    className="rounded-full object-cover"
+                  />
+                  <p className="text-sm text-zinc-50 font-medium">Sorpresas</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+
         </>
     );
 }
