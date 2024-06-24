@@ -7,7 +7,6 @@ import { useEffect, useState, useRef } from "react";
 import Lenis from '@studio-freight/lenis' 
 import Preloader from "@/components/Preloader";
 import { BentoGridThirdDemo } from "@/demos/BentoGridThirdDemo";
-import { Component } from "@/components/component/component";
 import Card from '@/components/Card';
 export default function Home() {
 
