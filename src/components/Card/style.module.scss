@@ -7,10 +7,10 @@
   top: 0px;
   .card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
     top: -25%;
-    height: 500px;
+    gap: 12em;
     width: 100vw;
     border-radius: 25px;
     padding:50px;
@@ -18,10 +18,9 @@
     justify-content: center;
     align-items: center;
     h2{
-      text-align: center;
-      margin: 0px;
-      font-size: 3rem;
+      font-size: 5rem;
       font-weight: 900;
+      line-height: 4.5rem;
     }
     .body{
       display: flex;

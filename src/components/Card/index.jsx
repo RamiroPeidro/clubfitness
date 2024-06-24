@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './style.module.scss';
 import { useTransform, motion, useScroll } from 'framer-motion';
 import { useRef } from 'react';
+import Prueba from "../../../public/sub.svg"
 
 const Card = ({i, title, description, src, url, color, progress, range, targetScale}) => {
 
@@ -20,10 +21,13 @@ const Card = ({i, title, description, src, url, color, progress, range, targetSc
       <motion.div 
         style={{backgroundColor: color, scale, top:`calc(-5vh + ${i * 25}px)`}} 
         className={styles.card}
-      >
+      > 
+        <div className='flex flex-col gap-10 max-w-md'>
         <h2 className='text-zinc-50'>{title}</h2>
+        <p className='text-zinc-50 text-xl font-[100]'>{description}</p>
+        </div>
         <div className=''>
-
+          <Image src={src} alt={title} width={350} height={350} />
         </div>
         {/* <div className={styles.body}>
           <div className={styles.description}>

@@ -8,41 +8,36 @@ import Lenis from '@studio-freight/lenis'
 import Preloader from "@/components/Preloader";
 import { BentoGridThirdDemo } from "@/demos/BentoGridThirdDemo";
 import Card from '@/components/Card';
+import Prueba from '../../public/sub.svg'
 export default function Home() {
+  
 
   const projects = [
     {
-      title: "Te suscribís",
+      title: "Suscribite",
       description: "Elige tu plan de suscripción y regístrate fácilmente en nuestra plataforma. Completa tu perfil para que podamos conocerte mejor y adaptar nuestros productos a tus necesidades.",
-      src: "subscribe.jpg",
+      src: "/sub.svg",
       link: "#subscribe",
       color: "#171717"
     },
     {
-      title: "Elegimos los Mejores Productos",
+      title: "Elegimos productos",
       description: "Cada mes, nuestros expertos en fitness seleccionan una variedad de productos de alta calidad, incluyendo suplementos, ropa deportiva, y accesorios esenciales, para que puedas alcanzar tus metas de bienestar.",
-      src: "selection.jpg",
+      src: "/comida.svg",
       link: "#selection",
-      color: "#171717"
-    },
-    {
-      title: "Empaquetamos con Cuidado",
-      description: "Nos aseguramos de que cada caja esté cuidadosamente empaquetada, protegiendo todos los productos para que lleguen en perfectas condiciones. Nuestro objetivo es sorprenderte cada mes.",
-      src: "packing.jpg",
-      link: "#packing",
       color: "#171717"
     },
     {
       title: "Te lo Enviamos",
       description: "Enviamos tu caja de fitness directamente a tu puerta. No tienes que preocuparte por nada, simplemente espera tu paquete y comienza a disfrutar de los productos seleccionados.",
-      src: "shipping.jpg",
+      src: "/shipping.svg",
       link: "#shipping",
       color: "#171717"
     },
     {
       title: "Disfruta y Mejora",
       description: "Abre tu caja y descubre nuevos productos cada mes. Úsalos para mejorar tu entrenamiento, nutrición y bienestar. Además, accede a contenido exclusivo y promociones especiales para nuestros suscriptores.",
-      src: "enjoy.jpg",
+      src: "/training2.svg",
       link: "#enjoy",
       color: "#171717"
     }
