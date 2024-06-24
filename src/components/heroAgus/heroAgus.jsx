@@ -13,7 +13,7 @@ export const HeroAgus = () => {
   return (
     <>
 
-<div className="h-screen bg-zinc-50 flex-col md:flex-row px-4 flex justify-center items-center relative" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)`, backgroundSize: 'cover'}}>
+<div className="h-screen bg-zinc-50 flex-col md:flex-row px-4 flex justify-center items-center relative" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/949131/pexels-photo-949131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)`, backgroundSize: 'cover'}}>
     
       <div className=''>
               <h1 className='font-bold text-zinc-50 text-6xl md:text-[10rem] xl::text-[10rem] tracking-tighter'>

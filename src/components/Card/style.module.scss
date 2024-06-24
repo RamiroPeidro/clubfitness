@@ -11,14 +11,17 @@
     position: relative;
     top: -25%;
     height: 500px;
-    width: 1000px;
+    width: 100vw;
     border-radius: 25px;
     padding:50px;
     transform-origin: top;
+    justify-content: center;
+    align-items: center;
     h2{
       text-align: center;
       margin: 0px;
-      font-size: 28px;
+      font-size: 3rem;
+      font-weight: 900;
     }
     .body{
       display: flex;

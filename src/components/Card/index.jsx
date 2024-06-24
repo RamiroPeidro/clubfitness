@@ -21,8 +21,11 @@ const Card = ({i, title, description, src, url, color, progress, range, targetSc
         style={{backgroundColor: color, scale, top:`calc(-5vh + ${i * 25}px)`}} 
         className={styles.card}
       >
-        <h2>{title}</h2>
-        <div className={styles.body}>
+        <h2 className='text-zinc-50'>{title}</h2>
+        <div className=''>
+
+        </div>
+        {/* <div className={styles.body}>
           <div className={styles.description}>
             <p>{description}</p>
             <span>
@@ -46,7 +49,7 @@ const Card = ({i, title, description, src, url, color, progress, range, targetSc
             </motion.div>
           </div>
 
-        </div>
+        </div> */}
       </motion.div>
     </div>
   )
