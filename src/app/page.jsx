@@ -125,7 +125,7 @@ export default function Home() {
                 Cada mes, tu caja de El Club del Fitness incluirá una variedad de productos de fitness premium para ayudarte a alcanzar tus metas.
                 </p>
               </div>
-              <div className="space-y-5 mx-auto grid max-w-5xl grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+              <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <img
                     src="/placeholder.svg"

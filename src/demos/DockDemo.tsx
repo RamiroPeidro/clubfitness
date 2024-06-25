@@ -7,18 +7,6 @@ export function DockDemo() {
   return (
       <Dock>
         <DockIcon>
-          <Icons.gitHub className="h-6 w-6" />
-        </DockIcon>
-        <DockIcon>
-          <Icons.googleDrive className="h-6 w-6" />
-        </DockIcon>
-        <DockIcon>
-          <Icons.notion className="h-6 w-6" />
-        </DockIcon>
-        <DockIcon>
-          <Icons.openai className="h-6 w-6" />
-        </DockIcon>
-        <DockIcon>
           <Icons.whatsapp className="h-6 w-6" />
         </DockIcon>
       </Dock>
