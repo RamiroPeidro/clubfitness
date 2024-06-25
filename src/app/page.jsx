@@ -21,7 +21,7 @@ export default function Home() {
       color: "#171717"
     },
     {
-      title: "Elegimos los productos.",
+      title: "Elegimos productos.",
       description: "Cada mes, seleccionamos una variedad de productos de alta calidad, incluyendo suplementos, ropa deportiva, y accesorios esenciales, para que puedas alcanzar tus metas de bienestar.",
       src: "/comida.svg",
       link: "#selection",
