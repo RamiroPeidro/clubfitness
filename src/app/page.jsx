@@ -14,29 +14,29 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Suscribite",
+      title: "Te suscribís.",
       description: "Elige tu plan de suscripción y regístrate fácilmente en nuestra plataforma. Completa tu perfil para que podamos conocerte mejor y adaptar nuestros productos a tus necesidades.",
       src: "/sub.svg",
       link: "#subscribe",
       color: "#171717"
     },
     {
-      title: "Elegimos productos",
-      description: "Cada mes, nuestros expertos en fitness seleccionan una variedad de productos de alta calidad, incluyendo suplementos, ropa deportiva, y accesorios esenciales, para que puedas alcanzar tus metas de bienestar.",
+      title: "Elegimos los productos.",
+      description: "Cada mes, seleccionamos una variedad de productos de alta calidad, incluyendo suplementos, ropa deportiva, y accesorios esenciales, para que puedas alcanzar tus metas de bienestar.",
       src: "/comida.svg",
       link: "#selection",
       color: "#171717"
     },
     {
-      title: "Te lo Enviamos",
+      title: "Te los enviamos.",
       description: "Enviamos tu caja de fitness directamente a tu puerta. No tienes que preocuparte por nada, simplemente espera tu paquete y comienza a disfrutar de los productos seleccionados.",
       src: "/shipping.svg",
       link: "#shipping",
       color: "#171717"
     },
     {
-      title: "Disfruta y Mejora",
-      description: "Abre tu caja y descubre nuevos productos cada mes. Úsalos para mejorar tu entrenamiento, nutrición y bienestar. Además, accede a contenido exclusivo y promociones especiales para nuestros suscriptores.",
+      title: "Disfrutás y Mejorás.",
+      description: "Abrí tu caja y descubrí nuevos productos cada mes. Usalos para mejorar tu entrenamiento, nutrición y bienestar. Además, accede a contenido exclusivo y promociones especiales para nuestros suscriptores.",
       src: "/training2.svg",
       link: "#enjoy",
       color: "#171717"
@@ -119,13 +119,13 @@ export default function Home() {
          <section className="bg-neutral-900 h-screen w-full py-12 md:py-24 lg:py-32">
           <div className=" px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl text-zinc-50 font-bold tracking-tighter sm:text-5xl">Algunos de nuestros productos</h2>
+              <div className="space-y-10">
+                <h2 className="text-6xl text-zinc-50 font-bold tracking-tighter sm:text-7xl">Algunos de nuestros productos</h2>
                 <p className="max-w-[900px] text-zinc-50 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Cada mes, tu caja de El Club del Fitness incluirá una variedad de productos de fitness premium para ayudarte a alcanzar tus metas.
                 </p>
               </div>
-              <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+              <div className="space-y-5 mx-auto grid max-w-5xl grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <img
                     src="/placeholder.svg"
