@@ -10,6 +10,11 @@ import { BentoGridThirdDemo } from "@/demos/BentoGridThirdDemo";
 import Card from '@/components/Card';
 import Prueba from '../../public/sub.svg'
 import { HeroScrollDemo } from "@/demos/HeroScrollDemo";
+import { VortexDemoSecond } from "@/demos/VortexDemoSecond";
+import { CheckIcon, ChevronRightIcon } from "lucide-react"; 
+import { AnimatedSubscribeButton } from "@/components/magicui/animated-subscribe-button";
+
+
 export default function Home() {
   
 
@@ -29,7 +34,7 @@ export default function Home() {
       color: "#171717"
     },
     {
-      title: "Te los enviamos.",
+      title: "Te lo enviamos.",
       description: "Enviamos tu caja de fitness directamente a tu puerta. No tienes que preocuparte por nada, simplemente espera tu paquete y comienza a disfrutar de los productos seleccionados.",
       src: "/shipping.svg",
       link: "#shipping",
@@ -195,9 +200,34 @@ export default function Home() {
         </section>
 
         <HeroScrollDemo />
-
-
         
+        <div className="flex justify-center items-center flex-col h-screen">
+        <h2 className="text-white text-7xl md:text-8xl font-bold text-center tracking-tighter">
+          Se parte ahora.
+        </h2>
+        <p className="text-white text-sm md:text-2xl max-w-xs  md:max-w-xl mt-6 text-center tracking-tight font-bold">
+           El club del fitness tiene cupos limitados, no te quedes sin el tuyo.
+        </p>
+        <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
+        <AnimatedSubscribeButton
+      buttonColor="#000000"
+      buttonTextColor="#ffffff"
+      subscribeStatus={false}
+      initialText={
+        <span className="group inline-flex items-center">
+          Suscribirse{" "}
+          <ChevronRightIcon className="ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+        </span>
+      }
+      changeText={
+        <span className="group inline-flex items-center">
+          <CheckIcon className="mr-2 h-4 w-4" />
+          Suscripto{" "}
+        </span>
+      }
+    />
+        </div>
+        </div>
 
         </>
     );
