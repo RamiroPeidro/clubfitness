@@ -134,7 +134,7 @@ export default function Home() {
               <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <img
-                    src="/placeholder.svg"
+                    src="https://acdn.mitiendanube.com/stores/002/268/228/products/31-eb5d41310c156ecde816686054084737-1024-1024.webp"
                     width="120"
                     height="120"
                     alt="Protein Powder"
@@ -144,7 +144,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <img
-                    src="/placeholder.svg"
+                    src="https://cellucor.com/cdn/shop/files/C4_Original_Hero-White-v3.png?v=1708982827"
                     width="120"
                     height="120"
                     alt="Pre-Workout"
@@ -154,7 +154,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <img
-                    src="/placeholder.svg"
+                    src="https://shop.studioinnate.com/wp-content/uploads/2024/04/Heavy-Boxy-Tshirt-Front-1-1-Product.jpg"
                     width="120"
                     height="120"
                     alt="Apparel"
@@ -164,17 +164,17 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <img
-                    src="/placeholder.svg"
+                    src="https://acdn.mitiendanube.com/stores/831/098/products/straps-tienda1-379c622b536a0947f416934834038896-640-0.webp"
                     width="120"
                     height="120"
                     alt="Accessories"
                     className="rounded-full object-cover"
                   />
-                  <p className="text-sm text-zinc-50 font-medium">Accessorios</p>
+                  <p className="text-sm text-zinc-50 font-medium">Accesorios</p>
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <img
-                    src="/placeholder.svg"
+                    src="https://www.sportsdistributors.co.nz/wp-content/uploads/images/products/products-3c57c0a0c280bd92f3950693f893f8c5_4.jpg"
                     width="120"
                     height="120"
                     alt="Supplements"
@@ -185,7 +185,7 @@ export default function Home() {
 
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <img
-                    src="/placeholder.svg"
+                    src="https://m.media-amazon.com/images/I/51DXXAMcgxL._SX300_SY300_QL70_FMwebp_.jpg"
                     width="120"
                     height="120"
                     alt="Supplements"
