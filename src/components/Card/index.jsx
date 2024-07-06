@@ -22,11 +22,11 @@ const Card = ({i, title, description, src, url, color, progress, range, targetSc
         style={{backgroundColor: color, scale, top:`calc(-5vh + ${i * 25}px)`}} 
         className={styles.card}
       > 
-        <div className='flex flex-col gap-10 max-w-lg'>
-        <h2 className='text-zinc-50'>{title}</h2>
-        <p className='text-zinc-50 text-xl font-[100]'>{description}</p>
+        <div className='flex flex-col gap-10'>
+        <h2 className='text-zinc-50 text-8xl text-center'>{title}</h2>
+        {/* <p className='text-zinc-50 text-xl font-[100]'>{description}</p> */}
         </div>
-        <div className=''>
+        {/* <div className=''>
             <Image 
               src={src} 
               alt={title} 
@@ -34,7 +34,7 @@ const Card = ({i, title, description, src, url, color, progress, range, targetSc
               height={200} // Tamaño para dispositivos móviles
               className="w-[200px] h-[200px] md:w-[350px] md:h-[350px]" // Tamaño más grande para dispositivos más grandes
             />
-          </div>
+          </div> */}
         {/* <div className={styles.body}>
           <div className={styles.description}>
             <p>{description}</p>
