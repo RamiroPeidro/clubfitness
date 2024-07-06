@@ -1,6 +1,6 @@
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import React from "react";
-
+import { InstagramLogoIcon } from "@radix-ui/react-icons";
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function DockDemo() {
@@ -8,6 +8,10 @@ export function DockDemo() {
       <Dock>
         <DockIcon>
           <Icons.whatsapp className="h-6 w-6" />
+        </DockIcon>
+        
+        <DockIcon>
+          <InstagramLogoIcon className="h-6 w-6" />
         </DockIcon>
       </Dock>
   );
@@ -22,6 +26,18 @@ const Icons = {
       ></path>
     </svg>
   ),
+  instagram: (props: IconProps) => (
+    <svg
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9-51.3-114.9-114.9-114.9zm0 188.6c-40.6 0-73.7-33.1-73.7-73.7s33.1-73.7 73.7-73.7 73.7 33.1 73.7 73.7-33.1 73.7-73.7 73.7zm146.4-194.3c0 14.9-12 26.9-26.9 26.9s-26.9-12-26.9-26.9 12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-.2-55.2-11.2-104.1-60.8-153.7S327.4 7.3 272.2 7.1c-55.6-.3-111.3-.3-166.9 0-55.2.2-104.1 11.2-153.7 60.8S7.3 120.6 7.1 175.8c-.3 55.6-.3 111.3 0 166.9.2 55.2 11.2 104.1 60.8 153.7s98.5 60.6 153.7 60.8c55.6.3 111.3.3 166.9 0 55.2-.2 104.1-11.2 153.7-60.8s60.6-98.5 60.8-153.7c.3-55.6.3-111.3 0-166.9zm-48.8 217c-7.8 20.1-22.9 35.2-43 43-29.7 11.8-100.4 9-132.9 9s-103.2 2.6-132.9-9c-20.1-7.8-35.2-22.9-43-43-11.8-29.7-9-100.4-9-132.9s-2.6-103.2 9-132.9c7.8-20.1 22.9-35.2 43-43 29.7-11.8 100.4-9 132.9-9s103.2-2.6 132.9 9c20.1 7.8 35.2 22.9 43 43 11.8 29.7 9 100.4 9 132.9s2.7 103.2-9 132.9z"
+      />
+    </svg>
+  ),  
   notion: (props: IconProps) => (
     <svg
       width="100"
