@@ -9,7 +9,7 @@ export function HeroScrollDemo() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-white">
+            <h1 className="text-xl font-bold text-white">
               Tu mejor versión <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none tracking-tight">
                 Empieza con el Club del Fitness
